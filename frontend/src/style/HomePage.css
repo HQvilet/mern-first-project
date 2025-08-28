@@ -1,0 +1,25 @@
+.products-container
+{
+    background-color: rgba(105, 105, 105, 0);
+    width: 45rem;
+    margin: auto;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding : 1em;
+}
+
+.products-list
+{
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.products-list a
+{
+    text-decoration: none;
+    color: black;
+}

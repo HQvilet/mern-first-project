@@ -1,0 +1,69 @@
+*
+{
+    box-sizing: border-box;
+}
+
+body
+{
+    margin: 0;
+    background-color: #1a1a1a;
+}
+
+.NavbarContainer
+{
+    width: 100%;
+    height: auto;
+    background-color: #333;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-between
+}
+
+.NavbarContainer a
+{
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 3rem;
+}
+
+.menu-items
+{
+    /* background-color: rgb(95, 180, 255); */
+    display: flex;
+    width: 15em;
+    justify-content: end;
+    gap: 1.5em;
+    }
+
+.nav-butt
+{
+    background-color: rgb(32, 32, 32);
+    border-radius: 5px;
+    align-self: center;
+    width: 4em;
+    height: 4em;
+}
+
+.nav-butt a
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    color: rgb(213, 213, 213);
+}
+
+.overlay-bg-panel
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #00000066;
+}

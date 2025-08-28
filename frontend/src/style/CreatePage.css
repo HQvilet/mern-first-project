@@ -1,0 +1,58 @@
+.product-form-container
+{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.input-field[type="number"]::-webkit-outer-spin-button,
+.input-field[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.product-form
+{
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    justify-content: flex-start;
+    gap: 12px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 15px;
+    width: 30rem;
+}
+
+.input-field
+{
+    padding: 7px;
+    padding-left: 10px;
+    font-size: 1rem;
+    color: white;
+    border: none;
+    background-color: transparent;
+    border: 2px solid rgb(255, 255, 255) ;
+    border-radius: 10px;
+    /* width: 80%; */
+}
+
+.input-field:focus
+{
+    outline: none;
+    /* border: 2px solid rgb(95, 180, 255); */
+    background-color: rgb(32, 32, 32);
+}
+
+.submit-butt
+{
+    width: 50%;
+    align-self: center;
+    padding: 8px;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(32, 32, 32);
+    color: white;
+    cursor: pointer;
+}
+
